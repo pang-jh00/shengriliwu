@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <title>视频</title>
-  <style>
-    body{margin:0;background:#000}
-    iframe{width:100%;height:100vh;border:none}
-  </style>
+<meta charset="UTF-8" />
+<title>视频</title>
+<style>
+  body{margin:0;background:#000}
+  video{width:100%;height:100vh}
+</style>
 </head>
 <body>
-  <!-- 把 BV1xxxxxxx 换成你的 BV 号 -->
-  <iframe src="https://player.bilibili.com/player.html?bvid=BV1iR8gznEUX&high_quality=1&autoplay=1&danmaku=0" allowfullscreen></iframe>
+  <video controls autoplay>
+    <source src="https://ploveh-forever.oss-cn-hongkong.aliyuncs.com/video.mp4" type="video/mp4">
+    浏览器不支持 HTML5 视频。
+  </video>
 </body>
 </html>
